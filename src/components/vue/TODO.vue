@@ -6,7 +6,7 @@ const todos = ref (['Estudiar bastante'])
 const todo = ref('')
 
 function Delete(){
-        todo.value.pop(todo.value)
+        todos.value.pop(todo.value)
         todo.value =''
 }
 
